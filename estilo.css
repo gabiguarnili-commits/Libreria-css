@@ -1,0 +1,20 @@
+/* Retoques propios sobre Primer CSS */
+
+body {
+  background-color: #f6f8fa;
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: #0969da;
+}
+
+.Box {
+  max-width: 500px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
